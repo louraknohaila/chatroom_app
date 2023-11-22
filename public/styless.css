@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(circle, rgba(45, 74, 223, 0.85) 10%, #0c1883 90%);
+}
+.R{
+    position : relative;
+    top: 25px;
+}
+.container-input {
+    position: relative;
+  }
+  .input {
+    width: 150px;
+    padding: 5px 0px 5px 40px;
+    border-radius: 9999px;
+    border: solid 1px #333;
+    transition: all .2s ease-in-out;
+    outline: none;
+    opacity: 0.8;
+  }
+  
+  .container-input svg {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0, -50%);
+  }
+  
+  .input:focus {
+    opacity: 1;
+    width: 250px;
+  }
+  .container1{
+    position : relative;
+    bottom :175px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .Home , .About , .Recipes , .Workshop , .Contact{
+      color : rgb(245, 242, 242);
+      margin-left: 25px;
+  }
+  .Home{
+      background-color: rgb(248, 190, 83);
+      color : black;
+      border-radius: 50px;
+       padding-left: 8px;
+       padding-right: 8px;
+  }
+  .liens:hover{
+      cursor: pointer;
+  }
+  .logo{
+    color : rgb(245, 242, 242);
+    font-size: 28px;
+    font-weight: 700;
+    position : relative;
+    bottom: 10px;
+  }
+  .container2{
+    display: flex;
+    justify-content: space-between;
+  }
+  .cont2{
+    position : relative;
+    bottom: -10px;
+    right: 90px;
+  }
+  .texte1 ,.texte2,.texte3,.botonne{
+     margin-bottom: 15px;
+  }
+  .cont1{
+    position : relative;
+    left: 85px;
+    bottom: 30px;
+  }
+  .big{
+       
+         color :rgb(55, 182, 255);
+         font-size: 32px;
+         font-weight: 900;
+  } 
+ .GEG{
+         position : relative;
+         left :10px;
+         color :rgb(0, 162, 255);
+         font-size: 35px;
+         font-weight: 900;
+ }  
+ .th{
+     position : relative;
+     left: 55px;
+     color :rgb(55, 182, 255);
+ }
+ .texte3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color :  rgb(7, 156, 175);
+    color :#eee;
+ }
+ button{
+    position : relative;
+    top: 20px;
+    left: 90px;
+    background-image: radial-gradient(circle, rgb(248, 190, 83)10%, rgb(134, 91, 11) 90%);
+    background-size: cover;
+    padding-left :34px;
+    padding-right:34px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 20px;
+    border: none;
+    color :#fff;
+ }
+ a{
+     color : #000000;
+     text-decoration: none;
+     font-size: 15px;
+ }
+  button:hover{
+   
+    cursor: pointer;
+    
+  }
+  @media screen and (max-width: 768px) {
+    body{
+        overflow: auto;
+    }
+    .container1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .liens{
+        position : relative;
+        top: 80px;
+       
+    }
+    .Home , .About , .Recipes , .Workshop , .Contact{
+        color : black;
+        margin-left: 10px;
+    }
+   .texte3{
+         position : relative;
+       right :15px;
+   }
+    .cont1 {
+        left: 0;
+        bottom: 0;
+        position : relative;
+        bottom: 55px;
+    }
+
+    .cont2 {
+       display: none;
+    }
+
+    .big {
+        position : relative;
+        left: 55px;
+        font-size: 24px;
+    }
+
+    .GEG {
+        font-size: 28px;
+        right: 0;
+        position : relative;
+        left: 45px;
+    }
+
+    .th {
+        position : relative;
+        left: 75px;
+    }
+
+    button {
+        position : relative;
+        left: 135px;
+    }
+}
